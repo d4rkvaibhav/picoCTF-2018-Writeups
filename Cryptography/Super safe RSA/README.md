@@ -37,6 +37,7 @@ So we got our p and q
 	print(hexmessage[2:].decode("hex"))
 	print(bytes.fromhex(hexmessage).decode())
 
+Python script <a href="https://github.com/d4rkvaibhav/PICOCTF-2018/blob/master/Cryptography/Super%20safe%20RSA/rsadecrypt.py">here </a>
 The program returned the flag:
 
 	picoCTF{us3_l@rg3r_pr1m3$_1335}
