@@ -4,7 +4,7 @@ Can you help us decrypt this message? We believe it is a form of a caesar cipher
 
 Solutions:
 
-The message given was "4-'3evh?'c)7%t#e-r,g6u#.9uv#%tg2v#7g'w6gA".I saw a pattern that if ascii value of given charater is greater than 65 we have to substract 34 to get capital letters and for less than 65 we have to add 60 to get small letters.So i wrote a small piece of code in python3 which you can see below: 
+The message given was "4-'3evh?'c)7%t#e-r,g6u#.9uv#%tg2v#7g'w6gA".I saw a pattern that if ascii value of given charater is greater than 65 we have to substract 34 to get capital letters and for less than 65 we have to add 60 to get small letters.So i wrote a small piece of code in python3 which you can see below (can also see <a href="https://github.com/d4rkvaibhav/PICOCTF-2018/blob/master/Cryptography/ceasercipher2/script.py"> here</a>) : 
 
 	x="4-'3evh?'c)7%t#e-r,g6u#.9uv#%tg2v#7g'w6gA"
 	s=''
