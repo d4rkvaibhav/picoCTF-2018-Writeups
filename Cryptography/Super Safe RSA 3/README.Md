@@ -15,7 +15,7 @@ I was given the following :
 
 	e=65537
 
-I found all the factors on https://factordb.com/ and then wrote the python script 
+I found all the factors on https://factordb.com/ and then wrote the python script( <a href="https://github.com/d4rkvaibhav/PICOCTF-2018/blob/master/Cryptography/Super%20Safe%20RSA%203/super3.py">here</a>)
 
 In normal RSA d=modInv(e,pXq)
 But in multiprime RSA suppose n has 5 factors a,b,c,d
