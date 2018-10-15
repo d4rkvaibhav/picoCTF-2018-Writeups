@@ -13,4 +13,7 @@ In ciphertext file we were given :
 
 	ciphertext (c): 2205316413931134031046440767620541984801091216351222789180582564557328762455422721368029531360076729972211412236072921577317264715424950823091382203435489460522094689149595951010342662368347987862878338851038892082799389023900415351164773 
 
-It is Low public exponent attack.You can find the python script here.
+It is Low public exponent attack.You can find the python script <a href="https://github.com/d4rkvaibhav/PICOCTF-2018/blob/master/Cryptography/SAFERSA/rsa.py">here</a>.
+
+After running python file flag recieved :
+	picoCTF{e_w4y_t00_sm411_81b6559f}
